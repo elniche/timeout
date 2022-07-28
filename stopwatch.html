@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise WaTch!!!</title>
+        <link rel="stylesheet" href="stopwatch.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+
+<!-- HAS LAS PALABRAS Y NUMEROS MAS GRANDES-->
+<!-- ESTAMOS TRABAJANDO CON---   TechnicalCafe EN 15:20-->
+    <body>
+        <section class="foto">
+        <h1>StaRt YoUr TimEr!!!!!!!!!</h1>
+
+    <div class="border border-primary">
+        <section class="boton">
+         <!--manipula esto-->
+            <div id = "time">
+                00:00:00
+            </div>
+
+
+            <div class="titulo">
+                <span id="hora">HouR</span>
+                <span id="minuto">Minute</span>
+                <span id="segundo">Second</span>  
+            </div>
+
+<button id="btn-start" type="button" class="btn btn-primary" onclick="startStop()">Start</button> 
+<button id="btn-reset" type="button" class="btn btn-primary" onclick="Reset()">Reset</button>
+        </section>
+     </div>   
+        
+
+        <video autoplay muted loop class="videobj">
+            <source src="D:\USB Drive\The Portfolio\stopwatch\People walking fast motion.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <script src ="stopwatch.js"></script>
+    </body>
+</html>

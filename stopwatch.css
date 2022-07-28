@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+    text-align: center;
+    
+}
+/* mas grande     */
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: none;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, rgba(255,0,0,00.35),rgba(0,0,255,0.35));
+    min-height: 100vh;
+}
+/* el pequeno     */
+.boton {
+    margin-top: 5%;
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 15px 10px;
+
+}
+
+
+
+h1 {
+    
+    color: white;
+    position: absolute;
+    top: 5%;
+
+}
+
+.videobj {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+button:hover {
+    background-color:greenyellow;
+    color: wheat;
+}
+
+button:active {
+    background-color: blue;
+}
+
+#time, .titulo {
+    color: antiquewhite;
+    font-size: 150%;
+}
+
